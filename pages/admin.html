@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Notebook</title>
+    <link rel="import" href="_header.html?__inline"/>
+    <link rel="stylesheet" href="../assets/css/admin.less"/>
+</head>
+<body>
+<script type="text/javascript">
+    seajs.data.alias.react = seajs.data.alias['react/0.13.1/react-with-addons'];
+    seajs.use([
+        'jquery/jquery-all',
+        'commons/commons-all',
+        'react/react-all',
+        'brace/brace'
+    ], function () {
+        seajs.use('app/main');
+    });
+</script>
+</body>
+
+</html>
